@@ -2,7 +2,7 @@
   "expo": {
     "name": "book-tracker",
     "slug": "book-tracker",
-    "version": "1.0.0",
+    "scheme": "booktracker",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -19,6 +19,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar"
+    ]
   }
 }
